@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglo</title>
+    <style>
+        body{
+            background-color: rgb(114, 223, 205);
+        }</style>
+
+</head>
+<body>
+    <h1 style="text-align: center; color: rgb(4, 0, 0);"><i><u><u>SISTEMA DE GESTIÓN DE INVENTARIO, VENTAS Y COMPRAS</u> </u> </i></h3>
+    
+   
+</head>
+
+<body>
+    
+ <label for="codigo">codigo</label>
+  <input type="text" id="codigo"><button onclick="buscarEstudiante()">Buscar Estudiante</button>
+  <br><br>
+ 
+
+  <label for="cliente">cliente</label>
+  <input type="text" id="cliente" placeholder="cliente">
+  <br><br>
+ 
+
+  <label for="producto">producto</label>
+  <input type="text" id="producto"><br><br>
+
+  <label for="fecha">fecha</label>
+  <input type="date" id="fecha"><br><br>
+
+  <label for="precio">precio</label>
+  <input type="text" id="precio"><br><br>
+
+
+ 
+  <button onclick="cargar()">Guardar ventario</button>
+ 
+  
+  <br><br>
+  
+  
+  <table id="mostrarinventario" border="1px" width="50%">
+      <thead>
+          <tr>
+              <th>cliente</th>
+              <th>codigo</th>
+              <th>producto</th>
+              <th>fecha</th>
+              <th>precio</th>
+          </tr>
+      </thead>
+      <tbody>
+      </tbody>
+  </table>
+
+
+
+
+ <script src="App.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ 
+    
+</body>
+</html>
